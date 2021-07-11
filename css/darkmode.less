@@ -1,0 +1,32 @@
+@media (prefers-color-scheme: light) {
+.sombra-caja{
+	box-shadow: 0px 5px 15px 0px fade(@color-secundario, 20%);
+}
+body {
+	margin: 0;
+	font-family: @fuente1;
+	color: @color-primario;
+}
+background-color: @color-primario;
+color: @color-claro;
+.intro{
+    background-color: @color-secundario;
+}
+.articulo--principal{
+    h2{
+        color: @color-claro;
+    }
+}
+.caja__contenido{
+    background-color: @color-secundario;
+    color:fade(@color-claro, 70%);
+    span{
+        color: fade(@color-claro, 70%);
+    }
+    a{
+        color: fade(@color-claro, 70%);
+    }
+}
+
+
+}
